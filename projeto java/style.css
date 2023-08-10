@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    }
+    
+    .red {
+    background-color: red;
+    transition: all 0.25s ease-in-out;
+    }
+
+    .green {
+    background-color: green;
+    transition: all 0.25s ease-in-out;
+    }
+
+    .blue {
+    background-color: blue;
+    transition: all 0.25s ease-in-out;
+    }
+
+    .yellow {
+    background-color: yellow;
+    transition: all 0.25s ease-in-out;
+     }
+
+    .brown {
+    background-color: brown;
+    transition: all 0.25s ease-in-out;
+    }
+
+    .orange {
+     background-color: orange;
+     transition: all 0.25s ease-in-out;
+     }
+
+    .purple {
+    background-color: purple;
+    transition: all 0.25s ease-in-out;
+    } 
+
+    .black {
+     background-color: black;
+     transition: all 0.25s ease-in-out;
+    }
+
+
+    button{
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 10px;
+    }
+    
+    div.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90vw;
+    text-align: center;
+    }
